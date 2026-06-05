@@ -1,0 +1,25 @@
+# RAG 核心
+langchain>=1.0.0
+langchain-core>=1.0.0
+langchain-openai>=1.0.0
+chromadb>=0.4.0
+tiktoken>=0.5.0
+
+# PDF 解析
+PyMuPDF>=1.23.0
+pdf2image>=1.16.0
+pytesseract>=0.3.10
+
+# OCR 备选
+paddleocr>=2.7.0
+paddlepaddle>=2.5.0
+
+# 检索增强
+rank-bm25>=0.2.2
+jieba>=0.42.0
+
+# 工具
+pyyaml>=6.0
+beautifulsoup4>=4.12.0
+python-dotenv>=1.0.0
+pytest>=7.0.0

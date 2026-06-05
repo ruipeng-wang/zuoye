@@ -1,0 +1,31 @@
+# 配置文件（含 API Key）
+config.yaml
+.env
+
+# Python
+__pycache__/
+*.py[cod]
+*.egg-info/
+dist/
+build/
+.venv/
+venv/
+
+# 输出
+outputs/
+logs/
+
+# 数据文件
+data/*.pdf
+agent开发作业样本.pdf
+agent开发作业样本.md
+
+# IDE
+.vscode/
+.idea/
+*.swp
+*.swo
+
+# OS
+.DS_Store
+Thumbs.db
